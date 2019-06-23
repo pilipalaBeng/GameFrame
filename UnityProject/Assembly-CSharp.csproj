@@ -67,6 +67,7 @@
     <Compile Include="Assets\Frame\LocalPlayer.cs" />
     <Compile Include="Assets\Frame\MasterControl.cs" />
     <Compile Include="Assets\Frame\ModelCtrl.cs" />
+    <Compile Include="Assets\Frame\NetworkCtrl.cs" />
     <Compile Include="Assets\Frame\ResourceCtrl.cs" />
     <Compile Include="Assets\Frame\SceneCtrl.cs" />
     <Compile Include="Assets\Frame\UIMessageCtrl.cs" />
@@ -287,6 +288,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Unity2018 3.0/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:/UnityAssets/UnityProject/UnityProject/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>E:/UnityAssets/UnityProject/UnityProject/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -301,9 +305,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>E:/UnityAssets/UnityProject/UnityProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>E:/UnityAssets/UnityProject/UnityProject/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Unity2018 3.0/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
