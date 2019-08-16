@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Oasis
 {
     [DisallowMultipleComponent]
-    public class GameStateCtrl : MonoBehaviour
+    public class GameStateCtrl : OasisBase
     {
         private GameStateCtrl()
         {

@@ -6,83 +6,83 @@ namespace Oasis
 {
     public class OasisBase : MonoBehaviour
     {
-        private void Awake()
+       public  virtual void Awake()
         {
             
         }
-        private void Start()
+        public virtual void Start()
         {
             
         }
-        private void OnEnable()
+        public virtual void OnEnable()
         {
             
         }
-        private void Reset()
+        public virtual void Reset()
         {
             
         }
-        private void Update()
+        public virtual void Update()
         {
             
         }
-        private void FixedUpdate()
+        public virtual void FixedUpdate()
         {
             
         }
-        private void LateUpdate()
+        public virtual void LateUpdate()
         {
             
         }
-        private void OnDestroy()
+        public virtual void OnDestroy()
         {
             
         }
-        private void OnDisable()
+        public virtual void OnDisable()
         {
             
         }
         //当粒子碰到collider时被调用
-        private void OnParticleCollision(GameObject other)
+        public virtual void OnParticleCollision(GameObject other)
         {
             
         }
         //当render在任何相机上都不可见时调用
-        private void OnBecameInvisible()
+        public virtual void OnBecameInvisible()
         {
             
         }
         //当render在任何相机上可见时调用
-        private void OnBecameVisible()
+        public virtual void OnBecameVisible()
         {
             
         }
         //当一个新关卡被载入时次函数被调用
-        private void OnLevelWasLoaded(int level)
+        public virtual void OnLevelWasLoaded(int level)
         {
             
         }
-        private void OnGUI()
+        public virtual void OnGUI()
         {
             
         }
         //当完成所有渲染图片后被调用，用来渲染图片后期效果
-        private void OnRenderImage(RenderTexture source, RenderTexture destination)
+        public virtual void OnRenderImage(RenderTexture source, RenderTexture destination)
         {
             
         }
         //当玩家暂停时发送到所有的游戏物体
-        private void OnApplicationPause(bool pause)
+        public virtual void OnApplicationPause(bool pause)
         {
             
         }
         //当玩家获得或失去焦点时发送给所有游戏物体
-        private void OnApplicationFocus(bool focus)
+        public virtual void OnApplicationFocus(bool focus)
         {
             
         }
         //在应用退出之前发送给所有的游戏物体
-        private void OnApplicationQuit()
+        public virtual void OnApplicationQuit()
         {
             
         }

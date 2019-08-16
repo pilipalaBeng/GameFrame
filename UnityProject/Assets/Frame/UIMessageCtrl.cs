@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Oasis
 {
     [DisallowMultipleComponent]
-    public class UIMessageCtrl : MonoBehaviour
+    public class UIMessageCtrl : OasisBase
     {
         private UIMessageCtrl()
         {

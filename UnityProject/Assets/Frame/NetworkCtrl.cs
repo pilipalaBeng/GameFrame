@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Oasis
 {
     [DisallowMultipleComponent]
-    public class NetworkCtrl : MonoBehaviour
+    public class NetworkCtrl : OasisBase
     {
        private NetworkCtrl()
         {

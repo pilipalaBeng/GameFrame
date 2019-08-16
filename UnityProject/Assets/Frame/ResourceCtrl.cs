@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Oasis
 {
     [DisallowMultipleComponent]
-    public class ResourceCtrl : MonoBehaviour
+    public class ResourceCtrl : OasisBase
     {
         private ResourceCtrl()
         {
@@ -35,6 +35,11 @@ namespace Oasis
         public void Load(string str)
         {
 
+        }
+
+        public AudioClip LoadAudioClip(string clipName)
+        {
+            return null;
         }
     }
 }

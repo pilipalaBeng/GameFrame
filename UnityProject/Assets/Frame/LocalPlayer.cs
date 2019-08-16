@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Oasis
 {
     [DisallowMultipleComponent]
-    public class LocalPlayer : MonoBehaviour
+    public class LocalPlayer : OasisBase
     {
         private LocalPlayer()
         {
@@ -26,9 +26,9 @@ namespace Oasis
             }
         }
 
-        private int _level;
+        private uint _level;
 
-        public int Level
+        public uint Level
         {
             get
             {
@@ -40,5 +40,20 @@ namespace Oasis
                 _level = value;
             }
         }
+
+        public ulong Glod
+        {
+            get
+            {
+                return _glod;
+            }
+
+            set
+            {
+                _glod = value;
+            }
+        }
+
+        private ulong _glod;
     }
 }

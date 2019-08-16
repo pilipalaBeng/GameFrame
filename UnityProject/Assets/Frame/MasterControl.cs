@@ -28,33 +28,34 @@ namespace Oasis
         }
         //玩家数据管理 玩家的各种数据
         [SerializeField]
-        private LocalPlayer localPlayer;
+        public LocalPlayer localPlayer;
         //游戏数据管理 持久化数据
         [SerializeField]
-        private GameDataCtrl gameDataCtrl;
+        public GameDataCtrl gameDataCtrl;
         //UI数据管理
         [SerializeField]
-        private UIMessageCtrl uiMessageCtrl;
+        public UIMessageCtrl uiMessageCtrl;
         //资源数据管理
         [SerializeField]
-        private ResourceCtrl resourceCtrl;
+        public ResourceCtrl resourceCtrl;
         //音频数据管理
         [SerializeField]
-        private AudioCtrl audioCtrl;
+        public AudioCtrl audioCtrl;
         //模型数据管理
         [SerializeField]
-        private ModelCtrl modelCtrl;
+        public ModelCtrl modelCtrl;
         //场景数据管理
         [SerializeField]
-        private SceneCtrl sceneCtrl;
+        public SceneCtrl sceneCtrl;
         //游戏类型控制管理 多游戏框架管理
         [SerializeField]
-        private GameStateCtrl gameStateCtrl;
+        public GameStateCtrl gameStateCtrl;
         //网络连接控制管理
         [SerializeField]
-        private NetworkCtrl networkCtrl;
-        private void Awake()
+        public  NetworkCtrl networkCtrl;
+        public override void Awake()
         {
+            base.Awake();
             DontDestroyOnLoad(this.gameObject);
 
             Init();

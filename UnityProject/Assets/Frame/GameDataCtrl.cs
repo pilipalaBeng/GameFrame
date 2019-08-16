@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Oasis
 {
     [DisallowMultipleComponent]
-    public class GameDataCtrl : MonoBehaviour
+    public class GameDataCtrl : OasisBase
     {
         //Json PP
         private GameDataCtrl()

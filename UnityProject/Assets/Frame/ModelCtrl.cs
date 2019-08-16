@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Oasis
 {
     [DisallowMultipleComponent]
-    public class ModelCtrl : MonoBehaviour
+    public class ModelCtrl : OasisBase
     {
         private ModelCtrl()
         {
